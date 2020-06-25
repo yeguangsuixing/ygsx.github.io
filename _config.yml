@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: YGSX
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: yeguangsuixing
+language: zh_CN
 timezone: ''
 
 # URL
@@ -98,4 +98,6 @@ theme: fan
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/yeguangsuixing/yeguangsuixing.github.io.git
+  branch: master
